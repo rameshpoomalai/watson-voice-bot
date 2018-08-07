@@ -86,8 +86,6 @@ def getConvResponse():
             'iam_api_key': assistantIAMKey
         }
 
-        if assistantUrl:
-            assistant_kwargs['url'] = assistantUrl
 
         assistant = AssistantV1(**assistant_kwargs)
 
